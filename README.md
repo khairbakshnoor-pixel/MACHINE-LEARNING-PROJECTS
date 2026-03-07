@@ -1,105 +1,101 @@
-🤖 Machine Learning Projects Repository
-Welcome to my Machine Learning Repository! This repository contains my hands-on practice, projects, and implementations of core Machine Learning concepts using Python. It reflects my learning journey from data preprocessing to building and evaluating ML models.
+# Machine Learning Projects Repository
 
-📌 About This Repository
-This repository includes:
+This repository contains multiple **Machine Learning projects** developed using Python and Jupyter Notebook.
+The goal of these projects is to practice data analysis, preprocessing, model training, and prediction using real-world datasets.
 
-📊 Data Cleaning and Preprocessing
-📈 Data Visualization
-🤖 Supervised Learning Models
-🧠 Unsupervised Learning
-🔍 Feature Engineering
-⚙️ Model Training and Evaluation
-All projects are implemented using industry-standard Python libraries.
+## 📂 Repository Structure
 
-🛠️ Technologies & Libraries Used
-Library	Purpose
-Python	Programming Language
-NumPy	Numerical operations
-Pandas	Data manipulation
-Matplotlib	Data visualization
-Seaborn	Advanced visualization
-Scikit-learn	Machine Learning models
-Jupyter Notebook	Experimentation and analysis
-📂 Repository Structure
-Machine-Learning/
-│
-├── ML.ipynb
-├── regression.ipynb
-├── students_data_project.ipynb
-├── unsupervised_learning.ipynb
-├── feature_scaling_and_spliting_data.ipynb
-├── label_and_one_hot_coding.ipynb
-│
-├── linear_regression_model.py
-├── logistic_regression.py
-├── knns.py
-├── decsion_tree.py
-│
-├── customer_data_for_ml_practice.csv
-│
-└── README.md
-🤖 Machine Learning Models Implemented
-Supervised Learning
-✅ Linear Regression
-✅ Logistic Regression
-✅ K-Nearest Neighbors (KNN)
-✅ Decision Tree
-Unsupervised Learning
-✅ Clustering (Basics)
-📊 Key Concepts Covered
-Data Cleaning
-Handling Missing Values
-Feature Scaling
-Label Encoding
-One-Hot Encoding
-Train-Test Split
-Model Training
-Model Evaluation
-Accuracy Measurement
-🚀 How to Run the Projects
-Step 1: Clone Repository
-git clone https://github.com/khairbakshnoor-pixel/Machine-Learning.git
-Step 2: Install Required Libraries
-pip install numpy pandas matplotlib seaborn scikit-learn
-Step 3: Run Jupyter Notebook
-jupyter notebook
-OR run Python files:
+The repository contains the following files:
 
-python linear_regression_model.py
-📈 Example Workflow
-Typical ML workflow followed in this repository:
+* **ML_student_project.ipynb**
+  Machine learning notebook for analyzing student data and building predictive models.
 
-Import Dataset
-Data Cleaning
-Feature Selection
-Data Splitting
-Model Training
-Prediction
-Model Evaluation
-🎯 Purpose of This Repository
-This repository demonstrates my:
+* **bank_loan_predictor.ipynb**
+  A machine learning project that predicts whether a bank loan should be approved based on applicant data.
 
-Machine Learning Skills
-Python Programming Skills
-Data Analysis Skills
-Model Building Skills
-It is part of my learning journey toward becoming a Machine Learning Engineer / Data Scientist.
+* **score_predictor.ipynb**
+  A model that predicts student scores using input features.
 
-👨‍💻 Author
-Khair Baksh Noor
+* **Student_performance_data_.csv**
+  Dataset used for student performance prediction.
 
-Python Developer
-Machine Learning Learner
-Data Science Enthusiast
-GitHub: https://github.com/khairbakshnoor-pixel
+* **loans50k.csv**
+  Dataset used for the bank loan prediction model.
 
-⭐ Support
-If you like this repository, please ⭐ star it and support my work!
+* **score.csv**
+  Dataset used for training and testing the score prediction model.
 
-📌 Future Improvements
-Add more ML projects
-Add Deep Learning models
-Add real-world datasets
-Deploy ML models
-Thank You for Visiting! 🚀
+---
+
+## ⚙️ Technologies Used
+
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+---
+
+## 📊 Projects Overview
+
+### 1️⃣ Student Performance Prediction
+
+This project analyzes student academic data and builds a machine learning model to predict student performance.
+
+Key steps:
+
+* Data preprocessing
+* Feature selection
+* Model training
+* Prediction and evaluation
+
+Dataset used: `Student_performance_data_.csv`
+
+---
+
+### 2️⃣ Bank Loan Approval Prediction
+
+This project predicts whether a loan application will be approved based on applicant information.
+
+Key steps:
+
+* Data cleaning
+* Feature encoding
+* Training classification models
+* Predicting loan approval
+
+Dataset used: `loans50k.csv`
+
+---
+
+### 3️⃣ Student Score Predictor
+
+This project predicts student exam scores using machine learning algorithms.
+
+Key steps:
+
+* Data analysis
+* Model training
+* Testing predictions
+
+Dataset used: `score.csv`
+
+---
+
+## ▶️ How to Run the Projects
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/Machine-Learning.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd Machine-Learning
+```
+
+3. Open the notebo
